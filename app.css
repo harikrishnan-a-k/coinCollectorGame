@@ -115,4 +115,8 @@ button i{
 		font-size: 2rem;
 	}
 
+	div#scoreBoard img{
+		margin-right: 10px;
+	}
+
 }
