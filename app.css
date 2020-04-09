@@ -1,6 +1,8 @@
 *{
 	touch-action: manipulation;
 }
+
+
 body{
 	height: 80vh;
 	width: 90vh;
