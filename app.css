@@ -25,7 +25,7 @@ div#scoreBoard img{
 }
 button{
 	padding: 10px 10px;
-	opacity: 0.5;
+	opacity: 0.3;
 	height: 70px;
 	width: 70px;
 	border-radius: 50%;
@@ -63,16 +63,16 @@ button i{
 
 	button{
 		padding: 10px 10px;
-		opacity: 0.5;
-		height: 150px;
-		width: 150px;
+		opacity: 0.3;
+		height: 110px;
+		width: 110px;
 		border-radius: 50%;
 		
 	}
 	.ArrowLeft{
 		position: fixed;
 		bottom:80px;
-		right:280px;
+		right:200px;
 	
 	}
 	.ArrowRight{
@@ -84,13 +84,13 @@ button i{
 	.ArrowUp{
 		position: fixed;
 		bottom:170px;
-		right:140px;
+		right:100px;
 	
 	}
 	.ArrowDown{
 		position: fixed;
 		bottom:0px;
-		right:140px;
+		right:100px;
 	
 	}
 	button i{
@@ -112,7 +112,7 @@ button i{
 @media (max-width:650px){
 
 	#timer{
-		font-size: 3rem;
+		font-size: 2rem;
 	}
 
 }
