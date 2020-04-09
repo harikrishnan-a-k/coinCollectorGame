@@ -1,3 +1,9 @@
+// disabling double click zoom in mobile devices
+window.addEventListener('dblclick',function(e){
+	e.preventDefault();
+})
+
+
 function isTouching(a, b) {
 	const aRect = a.getBoundingClientRect();
 	const bRect = b.getBoundingClientRect();
