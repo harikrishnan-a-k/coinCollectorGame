@@ -16,7 +16,7 @@ function isTouching(a, b) {
 	);
 }
 
-alert("collect 6 coins before time runs out, good luck");
+swal("Coin collector","collect 6 coins before time runs out, good luck","info");
 
 let time=2*60;
 function startTimer(){
@@ -24,8 +24,8 @@ function startTimer(){
 
 			if(time<0){
 				clearInterval(id);
-				alert('time is up, you loose!!!');
-				window.location.reload();
+				swal("Coin collector",'time is up, you loose!!!',"warning",{button:'play again'});
+				window.setTimeout(function(){window.location.reload();},3000);
 				return;
 			}
 			let minutes=Math.floor(time/(60));
@@ -103,8 +103,8 @@ const positions={
 		if(this.score>=6){
 			const winSound=document.querySelector('#winSound');
 			winSound.play();
-			alert('congratulations, you won!!!');
-			window.location.reload();
+			swal('congratulations, you won!!!',"Coin Collector","success",{button:'play again'});
+		  window.setTimeout(function(){window.location.reload();},3000);	
 		}
 	}
 }
