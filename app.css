@@ -1,0 +1,113 @@
+body{
+	height: 80vh;
+	width: 90vh;
+}
+
+#player{
+	transition: all .2s;
+}
+div#scoreBoard{
+	position: fixed;
+	top:0px;
+	left:20px;
+
+}
+
+div#scoreBoard img{
+	margin-right: 20px;
+	min-height: 60px;
+	min-width: 60px;
+}
+button{
+	padding: 10px 10px;
+	opacity: 0.5;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	
+}
+.ArrowLeft{
+	position: fixed;
+	bottom:45px;
+	right:140px;
+
+}
+.ArrowRight{
+	position: fixed;
+	bottom:45px;
+	right:0px;
+
+}
+.ArrowUp{
+	position: fixed;
+	bottom:90px;
+	right:70px;
+
+}
+.ArrowDown{
+	position: fixed;
+	bottom:0px;
+	right:70px;
+
+}
+button i{
+	font-size: 2rem;
+}
+	
+@media (max-width:700px){
+
+	button{
+		padding: 10px 10px;
+		opacity: 0.5;
+		height: 150px;
+		width: 150px;
+		border-radius: 50%;
+		
+	}
+	.ArrowLeft{
+		position: fixed;
+		bottom:80px;
+		right:280px;
+	
+	}
+	.ArrowRight{
+		position: fixed;
+		bottom:80px;
+		right:0px;
+	
+	}
+	.ArrowUp{
+		position: fixed;
+		bottom:170px;
+		right:140px;
+	
+	}
+	.ArrowDown{
+		position: fixed;
+		bottom:0px;
+		right:140px;
+	
+	}
+	button i{
+		font-size: 3rem;
+	}
+
+	
+
+}
+
+#timer{
+	position: fixed;
+	top: 2px;
+	right: 2px;
+	z-index: 1000;
+	font-size: 2rem;
+}
+
+@media (max-width:650px){
+
+	#timer{
+		font-size: 3rem;
+	}
+
+}
