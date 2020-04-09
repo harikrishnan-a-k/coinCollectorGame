@@ -1,5 +1,5 @@
 // disabling double click zoom in mobile devices
-window.addEventListener('dblclick',function(e){
+document.body.addEventListener('dblclick',function(e){
 	e.preventDefault();
 })
 
